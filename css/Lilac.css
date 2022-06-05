@@ -1,0 +1,396 @@
+body {
+    background-color: #fff;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #000000;
+    padding-right: 0!important;
+}
+/*
+  Topnav
+*/
+
+.topnav {
+  background-color: #fff;
+  overflow: auto;
+  padding-left: 1em;
+}
+
+.topnav a {
+  float: left;
+  color: #707070;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial;
+}
+
+.topnav a:hover {
+  color: #b41280;
+}
+
+.topnav a.active {
+  background-color: #fff;
+  color: #b41280;
+}
+
+.topnav-right {
+  float: right;
+  padding-right: 1em;
+}
+
+
+img {
+    max-width: 90%;
+}
+
+
+ul, li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+p {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+}
+
+
+/*
+  bouquet-title
+*/
+.bouquet-title{
+text-align: center;
+		text-transform: uppercase;
+		font-weight: 200;
+		letter-spacing: 3px;
+		font-family: 'Lato', sans-serif;
+		font-size: 35px;
+		line-height: 2.3;
+		margin-bottom: -50px;
+		color: #20381f;
+}
+
+/*USE CSS for Slider*/
+
+.cssSlider {
+	display: block;
+	position: relative;
+	width: 45%;
+	overflow: hidden;
+	margin-left: 60px;
+	margin-top: 20px;
+}
+.cssSlider .slides {
+	overflow: hidden;
+  //overflow: hidden;
+ 	width: 45%;
+	height: 70vmin;
+	padding: 0;
+	list-style: none;
+}
+.cssSlider .slides > li {
+	width: 100%;
+	height: 70vmin;
+	position: absolute;
+	//z-index: 1;
+	overflow: hidden;
+	margin: 45px;
+}
+.cssSlider .slides > li > img {
+	width: 100%;
+	height: 100%;
+	margin: 45px;
+	margin-top: 20px;
+}
+/*
+.cssSlider .slides > li:first-child:not(:target) {
+	z-index: 1;
+	-webkit-transform: translateY(0%);
+	        transform: translateY(0%);
+}
+*/
+.cssSlider .thumbnails {
+	//display: block;
+	//position: relative;
+	padding: 0;
+	margin: 50px;
+	list-style: none;
+}
+.cssSlider .thumbnails > li {
+	float: left;
+	width: 20%;
+  }
+//.cssSlider .thumbnails > li > a {
+	//display: block;}
+
+.cssSlider .thumbnails > li > a > img {
+	margin: 55px;
+  width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+
+.cssSlider .slides li:target {
+	z-index: 2;
+	-webkit-animation: slide 0s 1;
+}
+.cssSlider .slides li:not(:target) {
+	-webkit-animation: hidden 1s 1;
+}
+@-webkit-keyframes slide {
+	0% {
+		-webkit-transform: translateX(-100%);
+		        transform: translateX(-100%);
+	}
+	100% {
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+	}
+}
+@keyframes slide {
+	0% {
+		-webkit-transform: translateX(-100%);
+		        transform: translateX(-100%);
+	}
+	100% {
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+	}
+}
+@-webkit-keyframes hidden {
+	0% {
+		z-index: 3;
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+	}
+	100% {
+		z-index: 3;
+		-webkit-transform: translateX(100%);
+		        transform: translateX(100%);
+	}
+}
+@keyframes hidden {
+	0% {
+		z-index: 3;
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+	}
+	100% {
+		z-index: 3;
+		-webkit-transform: translateX(100%);
+		        transform: translateX(100%);
+	}
+}
+
+
+.Property1{
+font-family: Arial;
+color: #20381f;
+margin-bottom: 0;
+margin-left: 100px;
+}
+
+
+.container1{
+margin-left: 5px;
+gap: 50px;
+}
+
+.Icon{
+margin-bottom: 40px;
+    color: #20381f;
+    background: #f2f2f2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+    padding: 2%;
+    margin-top: 0px;
+}
+
+.Icon1{
+margin-bottom: 40px;
+    color: #20381f;
+    background: #f2f2f2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+    padding: 2%;
+    margin-top: 0px;
+}
+
+.Icon2{
+margin-bottom: 40px;
+    color: #20381f;
+    background: #f2f2f2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+    padding: 2%;
+    margin-top: 0px;
+}
+
+.Icon3{
+margin-bottom: 40px;
+    color: #20381f;
+    background: #f2f2f2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+    padding: 2%;
+    margin-top: 0px;
+}
+
+.Icon4{
+margin-bottom: 40px;
+    color: #20381f;
+    background: #f2f2f2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+    padding: 2%;
+    margin-top: 0px;
+}
+
+.Icon5{
+margin-bottom: 40px;
+    color: #20381f;
+    background: #f2f2f2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+    padding: 2%;
+    margin-top: 0px;
+}
+
+.info1{
+margin-left: 120px;
+margin-top: -830px;
+font-family: Arial;
+color: #20381f;
+}
+
+.info2{
+font-family: Arial;
+color: #20381f;
+}
+
+.info3{
+margin-left: 120px;
+margin-top: 90px;
+font-family: Arial;
+color: #20381f;
+}
+
+.info4{
+font-family: Arial;
+color: #20381f;
+}
+
+.info5{
+margin-left: 120px;
+margin-top: 87px;
+font-family: Arial;
+color: #20381f;
+}
+
+.info6{
+font-family: Arial;
+color: #20381f;
+}
+
+.info7{
+margin-left: 120px;
+margin-top: 85px;
+font-family: Arial;
+color: #20381f;
+}
+
+.info8{
+font-family: Arial;
+color: #20381f;
+}
+
+.info9{
+margin-left: 120px;
+margin-top: 90px;
+font-family: Arial;
+color: #20381f;
+}
+
+.info10{
+font-family: Arial;
+color: #20381f;
+}
+
+.info11{
+margin-left: 120px;
+margin-top: 90px;
+font-family: Arial;
+color: #20381f;
+}
+
+.info12{
+font-family: Arial;
+color: #20381f;
+}
+
+.Description{
+font-family: Arial;
+color: #20381f;
+margin-left: 750px;
+margin-top: -680px;
+margin-right: 20px;
+margin-bottom: 250px;
+}
+
+
+
+
+
+/*Cart button*/
+#hello:hover {
+  letter-spacing: 0.8em;
+  background-color: #F08C99;
+}
+
+#hello {
+  color: white;
+}
+button {
+  height: 4em;
+  width: 100%;
+  padding: 1.5em auto;
+  margin: 1em auto;
+  background-color: #FEB1C0;
+  border: none;
+  border-radius: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
+  margin-top: 50px;
+  margin-bottom: 0;
+ 
+ 
+}

@@ -1,0 +1,515 @@
+body {
+    background-color: #fff;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #000000;
+    padding-right: 0!important;
+}
+
+/*
+  Topnav
+*/
+
+.topnav {
+  background-color: #fff;
+  overflow: auto;
+  padding-left: 1em;
+}
+
+.topnav a {
+  float: left;
+  color: #707070;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial;
+}
+
+.topnav a:hover {
+  color: #b41280;
+}
+
+.topnav a.active {
+  background-color: #fff;
+  color: #b41280;
+}
+
+.topnav-right {
+  float: right;
+  padding-right: 1em;
+}
+
+
+img {
+    max-width: 90%;
+}
+
+
+ul, li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+p {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+}
+
+/*
+  bouquet-title
+*/
+.bouquet-title{
+text-align: center;
+		text-transform: uppercase;
+		font-weight: 200;
+		letter-spacing: 3px;
+		font-family: 'Lato', sans-serif;
+		font-size: 35px;
+		line-height: 2.3;
+		margin-bottom: -50px;
+		color: #20381f;
+}
+
+/*USE CSS for Slider*/
+
+.cssSlider {
+	position: relative;
+	width: 45%;
+	overflow: hidden;
+	margin-left: 60px;
+  margin-top: -85px;
+}
+.cssSlider .slides {
+	overflow: hidden;
+  //overflow: hidden;
+ 	width: 40%;
+	height: 70vmin;
+	padding: 0;
+	list-style: none;
+}
+.cssSlider .slides > li {
+	width: 100%;
+	height: 70vmin;
+	position: absolute;
+	//z-index: 1;
+	overflow: hidden;
+	margin: 45px;
+}
+.cssSlider .slides > li > img {
+	width: 100%;
+	height: 100%;
+	margin: 45px;
+}
+/*
+.cssSlider .slides > li:first-child:not(:target) {
+	z-index: 1;
+	-webkit-transform: translateY(0%);
+	        transform: translateY(0%);
+}
+*/
+.cssSlider .thumbnails {
+	//display: block;
+	//position: relative;
+	padding: 0;
+	margin: 50px;
+	list-style: none;
+}
+.cssSlider .thumbnails > li {
+	float: left;
+	width: 15%;
+  }
+//.cssSlider .thumbnails > li > a {
+	//display: block;}
+
+.cssSlider .thumbnails > li > a > img {
+	margin: 55px;
+  width: 80%;
+	height: auto;
+	margin-top: 20px;
+}
+
+.cssSlider .slides li:target {
+	z-index: 2;
+	-webkit-animation: slide 0s 1;
+}
+.cssSlider .slides li:not(:target) {
+	-webkit-animation: hidden 1s 1;
+}
+@-webkit-keyframes slide {
+	0% {
+		-webkit-transform: translateX(-100%);
+		        transform: translateX(-100%);
+	}
+	100% {
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+	}
+}
+@keyframes slide {
+	0% {
+		-webkit-transform: translateX(-100%);
+		        transform: translateX(-100%);
+	}
+	100% {
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+	}
+}
+@-webkit-keyframes hidden {
+	0% {
+		z-index: 3;
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+	}
+	100% {
+		z-index: 3;
+		-webkit-transform: translateX(100%);
+		        transform: translateX(100%);
+	}
+}
+@keyframes hidden {
+	0% {
+		z-index: 3;
+		-webkit-transform: translateX(0%);
+		        transform: translateX(0%);
+	}
+	100% {
+		z-index: 3;
+		-webkit-transform: translateX(100%);
+		        transform: translateX(100%);
+	}
+}
+
+
+
+
+
+
+/* Buttons */
+.buttons{
+position: relative;
+display: block;
+float: right;
+margin-top: 50px;
+margin-right: 80px;
+}
+
+.btn-group1 button {
+  border-radius: 15px;
+  background-color: #fff; 
+  border: 1px;
+  border-style: solid;
+  border-color: #c1cfdc;
+  color: black; 
+  padding: 8px 35px;
+  cursor: pointer;
+  font-family: Verdana;
+  color: #415971;
+  background-image: linear-gradient(white 65%, #f4f6fb 50%);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 10px;
+}
+
+
+.btn-group2 button {
+  border-radius: 15px;
+  background-color: #fff; 
+  border: 1px;
+  border-style: solid;
+  border-color: #c1cfdc;
+  color: black; 
+  padding: 8px 35px;
+  cursor: pointer;
+  font-family: Verdana;
+  color: #415971;
+  background-image: linear-gradient(white 65%, #f4f6fb 50%);
+  margin-bottom: 10px;
+}
+
+.btn-group3 button {
+  border-radius: 15px;
+  background-color: #fff; 
+  border: 1px;
+  border-style: solid;
+  border-color: #c1cfdc;
+  color: black; 
+  padding: 8px 35px;
+  cursor: pointer;
+  font-family: Verdana;
+  color: #415971;
+  background-image: linear-gradient(white 65%, #f4f6fb 50%);
+}
+
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+
+.btn-group1 button:hover {
+  background-color: #f4f6fb;
+  background-image: none;
+}
+
+.btn-group2 button:hover {
+  background-color: #f4f6fb;
+  background-image: none;
+}
+
+.btn-group3 button:hover {
+  background-color: #f4f6fb;
+  background-image: none;
+}
+
+
+
+/* Property */
+
+.Property1{
+font-family: Arial;
+color: #20381f;
+margin-left: 90px;
+margin-top: 40px;
+margin-bottom: 0px;
+}
+
+.Property2{
+font-family: Arial;
+color: #20381f;
+margin-left: 90px;
+margin-top: 40px;
+}
+
+
+.Property3{
+font-family: Arial;
+color: #20381f;
+margin-left: 90px;
+margin-top: 40px;
+margin-bottom: 0px;
+margin-right: 50px;
+}
+
+
+/* informazioni */
+.informazioni{
+margin-left: 30px;
+display: flex;
+gap: 110px;
+margin-bottom: 0px;
+}
+
+.informazioni1{
+margin-left:-130px;
+display: flex;
+margin-bottom: 10px;
+margin-top: 137px;
+}
+
+.informazioni2{
+margin-left:-130px;
+display: flex;
+margin-bottom: 10px;
+margin-top: 137px;
+}
+
+.informazioni3{
+margin-left:-130px;
+display: flex;
+margin-bottom: 10px;
+margin-top: 137px;
+}
+
+.informazioni4{
+margin-left:-130px;
+display: flex;
+margin-bottom: 10px;
+margin-top: 137px;
+}
+
+.informazioni5{
+margin-left:-130px;
+display: flex;
+margin-bottom: 10px;
+margin-top: 137px;
+}
+
+.informazioni6{
+margin-left:-130px;
+display: flex;
+margin-bottom: 10px;
+margin-top: 137px;
+}
+
+.informazioni7{
+margin-left:-130px;
+display: flex;
+margin-bottom: 10px;
+margin-top: 137px;
+}
+
+
+
+/* simboli cerchi */
+.circleshapes{
+	display: flex;
+	gap:2px;
+	margin-left: -540px;
+	margin-top: 35px;
+}
+
+.circleshapes1{
+margin-left: 5px;
+}
+
+.circleshapes2{
+margin-left: 105px
+}
+
+.circleshapes3{
+margin-left: 105px
+}
+
+/* Icon property */
+.container1 {
+  display: flex;
+  margin-left: 5px;
+  gap: 50px;
+}
+
+.Icon{
+    color: #20381f;
+    background: #f2f2f2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 3%;
+    margin-top: 0px;
+}
+
+.Icon1{
+    color: #20381f;
+    background: #f2f2f2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+    padding: 3%;
+    margin-top: 0px;
+}
+
+.Icon2{
+    color: #20381f;
+    background: #f2f2f2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+    padding: 3%;
+    margin-top: 0px;
+}
+
+
+/* icone fiori */
+
+.flowerIcon{
+	display: flex;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    height: 110px;
+    width: 110px;
+}
+
+.flowerIcon1{
+	display: flex;
+    color: #20381f;
+    background: #f2f2f2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 3%;
+    margin-top: 0px;
+    font-size: 50px;
+}
+
+.flowerIcon2{
+	display: flex;
+    color: #20381f;
+    background: #f2f2f2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 3%;
+    margin-top: 0px;
+    font-size: 50px;
+}
+
+
+
+
+/* icone colori */
+.dot1 {
+  height: 35px;
+  width: 35px;
+  background-color: #6bb96a;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+.dot2 {
+  height: 35px;
+  width: 35px;
+  background-color: #eea2d0;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}
+.dot3 {
+  height: 35px;
+  width: 35px;
+  background-color: #eea2d0;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}
+.dot4 {
+  height: 35px;
+  width: 35px;
+  background-color: #4baae0;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}
+.dot5 {
+  height: 35px;
+  width: 35px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  border: 1px;
+  border-style: solid;
+  border-color: #A9A9A9;
+}

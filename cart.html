@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="/Users/giuliettamotolese/Desktop/Accademia/III ANNO/II Semestre/Web Design/flowerbee/codice/css/cart.css">
+<script src="https://kit.fontawesome.com/e8f8804c71.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="cart.js" async></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<title>Shopping Cart</title>
+</head>
+<body>
+
+<!-- topnav======================================== -->
+<div class="topnav-logo">
+</div>
+
+<div class="topnav">
+  <a href="index.html">Bouquet</a>
+  <a href="CustomOrders.html">Custom Order</a>
+  <a href="">Gift Card</a>
+  <a href="Subscriptions.html">Subscriptions</a>
+  <a href="ContactUs.html">Contact</a>
+  <a href="AboutUs.html">About</a>
+  
+  <div class="topnav-right">
+   <a href="#"><i class="fa-brands fa-instagram"></i></a>
+   <a href="#"><i class="fa-brands fa-linkedin-in"></i></a> 
+   <a href="#"><i class="fa-brands fa-facebook-f"></i></a> 
+   <a class="active" href="#home"><i class="fa-solid fa-cart-shopping"></i></a> 
+   <a href="#"><i class="fa-solid fa-user"></i></a>  
+  </div>
+</div>
+
+<hr>
+
+
+
+<div class="title">
+<h2 class="font-weight-bold pt-5">Shopping Cart</h2>
+<hr class="new2">
+</div>
+<div class="cartcontainer">
+<table width="100%">
+ <thead>
+   <tr>
+      <td>Remove</td>
+      <td>Image</td>
+      <td>Product</td>
+      <td>Price</td>
+      <td>Quantity</td>
+      <td>Total</td>
+   </tr> 
+ </thead>
+ 
+  <tbody id="myTable">
+   
+     <tr>
+       <td><a class="btn-remove" href="#"><i class="fas fa-trash-alt"></i></a></td>
+       <td><img src="/Users/giuliettamotolese/Desktop/Accademia/III ANNO/II Semestre/Web Design/flowerbee/codice/immagini/Big Bang/BigBang2.jpg" alt=""></td>
+       <td><h5>Big Bang Standard</h5></td>
+       <form><td><input type="number" name="multiplicand" value="33.00" readonly>&nbsp;$</td>
+       <td><input type="number" name="multiplier" value="1"></td>
+       <td><input type="button" value="Calculate" onclick="multiply(0)">&nbsp;<label my-label></label>.00 $</td></form> 
+       <script  src="./script.js"></script>
+     </tr>  
+
+     <tr>
+       <td><a class="btn-remove" href="#"><i class="fas fa-trash-alt"></i></a></td>
+       <td><img src="/Users/giuliettamotolese/Desktop/Accademia/III ANNO/II Semestre/Web Design/flowerbee/codice/immagini/Big Bang/BigBang1.jpg" alt=""></td>
+       <td><h5>Big Bang Premium</h5></td>
+       <form><td><input type="number" name="multiplicand" value="39.00" readonly>&nbsp;$</td>
+       <td><input type="number" name="multiplier" value="1"></td>
+       <td><input type="button" value="Calculate" onclick="multiply(1)">&nbsp;<label my-label></label>.00 $</td></form> 
+       <script  src="./script.js"></script>
+     </tr>  
+
+     <tr>     
+       <td><a class="btn-remove" href="#"><i class="fas fa-trash-alt"></i></a></td>
+       <td><img src="/Users/giuliettamotolese/Desktop/Accademia/III ANNO/II Semestre/Web Design/flowerbee/codice/immagini/Big Bang/BigBang4.jpg" alt=""></td>
+       <td><h5>Big Bang Deluxe</h5></td>
+       <form ><td><input type="number" name="multiplicand" value="42.00" readonly>&nbsp;$</td>
+       <td><input type="number" name="multiplier" value="1"></td>
+       <td><input type="button" value="Calculate" onclick="multiply(2)">&nbsp;<label my-label></label>.00 $</td></form> 
+       <script  src="/script.js"></script>
+     </tr>   
+   
+
+  </tbody> 
+ 
+</table>
+</div>
+
+     
+
+
+<div class="cartbottom" class=" container">
+ <div class="row">
+    <div class=" coupon col-lg-6 col-md-6 col-12 mb-4">
+       <div>
+       <h5>COUPON</h5>
+       <p>Enter your coupon code if you have one.</p>
+       <input class="coupon-code" type="text" placeholder="Coupon Code">
+       <button type="button" onclick="alert('Your coupon code has been authenticated!')" class="button1">APPLY COUPON</button>
+       </div>
+    </div>
+
+
+  
+  <div class="total col-1g-6 col-md-6 col-12">
+      <div>
+      <h5>CART TOTAL</h5>
+      <div class="d-flex justify-content-between">
+        <h6>Subtotal</h6>
+        <div class="price" style="text-align: right;"><p>$215.00</p></div>
+      </div>      
+      <div class="d-flex justify-content-between">
+        <h6>Shipping</h6>
+        <div class="price" style="text-align: right;"><p>$215.00</p></div>
+      </div>
+      <hr class="second-hr"> 
+      <div class="d-flex justify-content-between">
+        <h6>Total</h6>
+        <div class="price" style="text-align: right;"><p>$215.00</p></div>
+      </div>
+      <button type="button" class="button2">PROCEED TO CHECKOUT</button>
+     </div>
+  </div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer======================================== -->
+<div class="footer">  
+  <div style="position:relative;padding-top:0%; bottom: 0%;">
+    <iframe src="Footer.html" width="100%" height="370" scrolling="no"></iframe>
+    <style>iframe {border: none}</style>
+  </div>
+  </div>
+
+</body>
+</html>

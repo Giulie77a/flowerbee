@@ -1,0 +1,212 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+html,
+body {
+  margin: auto;
+  padding: 0%;
+}
+
+/*
+  Topnav
+*/
+
+.topnav {
+  background-color: #fff;
+  overflow: auto;
+  padding-left: 1em;
+}
+
+.topnav a {
+  float: left;
+  color: #707070;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial;
+}
+
+.topnav a:hover {
+  color: #b41280;
+}
+
+.topnav a.active {
+  background-color: #fff;
+  color: #b41280;
+}
+
+.topnav-right {
+  float: right;
+  padding-right: 1em;
+}
+
+
+
+
+
+
+.section {
+  width: 100%;
+}
+
+.container.slidercontent {
+background: rgb(180,18,128);
+background: linear-gradient(148deg, rgba(180,18,128,1) 0%, rgba(212,152,142,1) 100%);
+}
+
+
+.container {
+  color: #444;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: Roboto;
+  overflow: hidden;
+  background: #ffffff;
+  
+}
+
+.section .container {
+  padding:5%;
+  width: 100%;
+}
+
+.section.bg {
+  background: #f7f7f7;
+}
+/*
+  Slider
+*/
+
+.section .slider,
+.section .footer {
+  background: #333;
+}
+
+.slidercontent {
+  text-align: center;
+}
+
+.hero {
+  font-family: 'roboto';
+  color: white;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-left: -130px;
+}
+
+h1.hero {
+  font-size: 54px;
+}
+
+h2.hero {
+  font-size: 20px;
+  margin-bottom: 60px;
+  font-family: 'arial'
+}
+
+h1.hero:after {
+  content: "";
+  width: 300px;
+  position: relative;
+  border-bottom: 1px solid #aaa;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.call {
+  color: white;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.call span {
+  display: inline;
+  border: 1px solid white;
+  padding: 8px 13px;
+  font-size: 20px;
+  transition: background 0.15s linear;
+}
+
+.call span:hover {
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+
+
+
+
+
+.img1{
+margin-left: 180px;
+margin-top: 100px;
+}
+
+.OurCompany{
+margin-left: 600px;
+margin-top: -500px;
+margin-right: 90px;
+}
+
+.info1{
+font-family: Times;
+color: #20381f;
+text-align: center;
+letter-spacing: 3px;
+}
+.info2{
+font-family: Times;
+color: #20381f;
+text-align: center;
+letter-spacing: 5px;
+}
+.info3{
+color:#484848;
+line-height: 30px;
+text-align: justify;
+
+}
+
+
+
+
+.img2{
+margin-top: -650px;
+margin-right: 90px;
+}
+
+.keypoints{
+margin-left: 200px;
+margin-top: -200px;
+margin-right: 750px;
+}
+
+.info4{
+font-family: Times;
+color: #20381f;
+text-align: center;
+letter-spacing: 3px;
+margin-top: 450px;
+}
+.info5{
+font-family: Times;
+color: #20381f;
+letter-spacing: 1px;
+}
+.info6{
+color:#484848;
+line-height: 25px;
+text-align: justify;
+}
+
+
+
+
+
+

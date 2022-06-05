@@ -1,0 +1,247 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+html,
+body {
+  margin: auto;
+  padding: 0%;
+  font-family: Arial;
+}
+
+
+/*
+  Topnav
+*/
+
+.topnav {
+  background-color: #fff;
+  overflow: auto;
+  padding-left: 1em;
+}
+
+.topnav a {
+  float: left;
+  color: #707070;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial;
+}
+
+.topnav a:hover {
+  color: #b41280;
+}
+
+.topnav a.active {
+  background-color: #fff;
+  color: #b41280;
+}
+
+.topnav-right {
+  float: right;
+  padding-right: 1em;
+}
+
+
+
+
+/*
+  Cart
+*/
+.title{
+font-family: Arial;
+margin-left: 100px;
+color: #403F3F;
+margin-top: 50px;
+}
+
+hr.new2{
+  height: 4px;
+  color: #D4988E;
+  background-color: #D4988E;
+  border: none;
+  margin-right: 1280px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+}
+
+.cartcontainer{
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 50px;
+overflow-x: auto;
+}
+
+.cartcontainer table{
+border-collapse: collapse;
+width: 100%;
+table-layout: fixed;
+white-space: nowrap;
+}
+
+.cartcontainer table thead{
+font-weight: 700;
+font-family: Arial;
+}
+
+.cartcontainer table thead td{
+	background: #D4988E;
+	color: #ffffff;
+	border: none;
+	padding: 6px 0;
+}
+
+.cartcontainer table td{
+border: 1px solid #b6b3b3;
+text-align: center;
+}
+
+.cartcontainer table td:nth-child(1){
+width: 100px;
+}
+
+.cartcontainer table td:nth-child(2),
+.cartcontainer table td:nth-child(3){
+width: 200px;
+}
+
+.cartcontainer table td:nth-child(4),
+.cartcontainer table td:nth-child(5),
+.cartcontainer table td:nth-child(6){
+width: 170px;
+}
+
+
+.cartcontainer table tbody img{
+width: 100px;
+height: 80px;
+object-fit: cover;
+}
+
+.cartcontainer table tbody i{
+color: #8d8c89;
+}
+
+.coupon-code{
+margin-top: 20px;
+}
+
+
+.total{
+margin-left: 650px;
+margin-top: -174px;
+margin-right: 100px;
+}
+
+h6,
+p{
+display: inline;
+}
+
+.price{
+margin-top: -15px;
+margin-bottom: 10px;
+}
+
+.cartbottom .coupon>div,
+.cartbottom .total>div {
+border: 1px solid #b6b3b3;
+border-top: 20px;
+}
+
+.cartbottom .coupon>div{
+margin-left: 100px;
+margin-right: 800px;
+}
+
+.border{
+margin-top: 20px;
+}
+
+.cartbottom .coupon h5,
+.cartbottom .total h5{
+	background: #D4988E;
+	color: #ffffff;
+	border: none;
+	padding: 6px 12px;
+	font-weight: 700;
+}
+
+.cartbottom .coupon p,
+.cartbottom .coupon input{
+padding: 0 12px;
+}
+
+.cartbottom .coupon input{
+height: 44px;
+width: 220px;
+}
+
+.cartbottom .coupon input{
+margin: 0 10 20px 12px;
+margin-left: 10px;
+margin-bottom: 15px;
+}
+
+.cartbottom .total div>div{
+padding: 0 12px;
+}
+
+.cartbottom .total h6{
+color: #2a2a2a;
+}
+
+.second-hr{
+height: 4px;
+color: #D4988E;
+background-color: #D4988E;
+border: none;
+margin-right: 580px;
+}
+
+.cartbottom .total div>button{
+margin: 20px 12px 20px 10px;
+}
+
+
+
+.button1{
+padding: 3%;
+width: 200px;
+background-color: #D4988E;
+border: none;
+color: white;
+border-radius: 10px;
+margin-left: 20px;
+cursor: pointer;
+transition-duration: 0.4s;
+}
+
+.button1:hover{
+background-color: #BD847A;
+  color: white;
+}
+
+.button2{
+padding: 2%;
+width: 650px;
+background-color: #D4988E;
+border: none;
+color: white;
+border-radius: 10px;
+text-align: center;
+cursor: pointer;
+transition-duration: 0.4s;
+}
+
+
+.button2:hover{
+background-color: #BD847A;
+  color: white;
+}
+
+

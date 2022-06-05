@@ -1,0 +1,345 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+html,
+body {
+  margin: auto;
+  padding: 0%;
+}
+
+
+.section {
+  width: 100%;
+}
+
+.container.slidercontent {
+background: rgb(180,18,128);
+background: linear-gradient(148deg, rgba(180,18,128,1) 0%, rgba(212,152,142,1) 100%);
+}
+
+.container {
+  color: #20381f;;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: Roboto;
+  overflow: hidden;
+  background: white;
+}
+
+
+.section .container {
+  padding:5%;
+  width: 100%;
+}
+
+.section.bg {
+  background: white;
+}
+
+
+
+/*
+  Topnav
+*/
+
+.topnav {
+  background-color: #fff;
+  overflow: auto;
+  padding-left: 1em;
+}
+
+.topnav a {
+  float: left;
+  color: #707070;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial;
+}
+
+.topnav a:hover {
+  color: #b41280;
+}
+
+.topnav a.active {
+  background-color: #fff;
+  color: #b41280;
+}
+
+.topnav-right {
+  float: right;
+  padding-right: 1em;
+}
+
+
+
+/*
+  Slider
+*/
+
+.section .slider,
+.section .footer {
+  background: #333;
+}
+
+.slidercontent {
+  text-align: center;
+}
+
+.hero {
+  font-family: 'roboto';
+  font-weight: normal;
+  letter-spacing: 1px;
+color: white;
+  
+}
+
+h1.hero {
+  font-size: 120px;
+  margin-top: 20px;
+
+}
+
+h2.hero {
+  font-size: 30px;
+  margin-bottom: 60px;
+  font-family: 'arial';
+  margin-top: -70px;
+}
+
+/* 
+  Columns 
+*/
+
+.col {
+  float: left;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.col.four {
+  width: 23%;
+  margin: 1%;
+}
+
+.col.three {
+  width: 31.3%;
+  margin: 0 1%;
+}
+
+.col.two {
+  width: 40%;
+  margin: 0 2.5%;
+  padding: 0 2.5%;
+}
+
+.col.extrapad {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.col .service,
+.col .feature {
+  font-size: 21px;
+  font-weight: 300;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+.col .service:after {
+  content: "";
+  width: 50px;
+  position: relative;
+  border-bottom: 1px solid #eee;
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.col .feature {
+  font-size: 19px;
+}
+
+.col h1.side,
+.col p.side,
+.col span.side:first-of-type {
+  margin-left: 50px;
+  text-align: left;
+}
+
+.col .icon {
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  line-height: 85px;
+  text-align: center;
+  margin: 0 auto;
+  transition: background 0.25s linear, color 0.25s linear;
+}
+
+.col .icon.side {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: -15px;
+  height: 50px;
+  width: 50px;
+}
+
+.col:hover > .icon {
+  background: #F44336;
+  color: white;
+}
+
+.col:hover > .icon.side {
+  background: initial;
+  color: initial;
+}
+
+.responsivegroup {
+  display: none;
+}
+/*
+  Column specifics
+*/
+
+.col p,
+.col h1 {
+  padding: 0%;
+  text-align: center;
+}
+
+.group.margin {
+  margin-bottom: 20px;
+}
+
+.col .imgholder {
+  height: 300px;
+  width: 100%;
+  background: #333;
+  transition: background 0.3s linear;
+}
+
+
+.col.bg {
+  background: #FFF;
+}
+
+.col.pointer {
+  cursor: pointer;
+}
+
+.col.bg:hover .imgholder {
+  background: #555;
+}
+
+.col span.feature {
+  font-size: 20px;
+}
+
+/*
+  Text
+*/
+
+.container > h1:not(.hero) {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.container > h1:after {
+  content: "";
+  width: 30px;
+  position: relative;
+  border-bottom: 1px solid #aaa;
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+}
+
+h2 {
+  font-family: 'Roboto Slab', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 50px;
+  margin-top: -15px;
+}
+
+.left,
+.left > h1,
+.left > p {
+  text-align: left;
+}
+
+.reset {
+  text-align: left !important;
+}
+
+.reset:after {
+  display: none !important;
+}
+
+
+/*
+   Gallery
+*/
+
+
+div.gallery {
+  border: 1px;
+   margin-bottom: 25px;
+}
+
+div.gallery:hover {
+  border: 1px solid #b41280;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 8px;
+  text-align: center;
+  font-family: Verdana;
+}
+
+div.desc1 {
+  padding: 12px;
+  text-align: center;
+  font-family: Garamond;
+font-weight: bold;
+font-size: 18px;
+letter-spacing: 1px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+}
+
+
+
+/*
+Footer
+*/
+
+.footer {
+position:relative;
+height:100%;
+width: 100%;
+}
+
+
+
